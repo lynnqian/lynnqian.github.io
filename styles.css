@@ -8,13 +8,9 @@
 	height: 40% !important;
 }
 */
-
-.vertical-center {
-}
-
 .navbar-brand {
     color: #8a8a8a !important;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Comic Neue', cursive;
 }  
 
 .links_on_top_nav {
@@ -22,7 +18,7 @@
     transition: border-bottom 0.5s;
     font-size: 1.1em;
     text-transform: uppercase;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Comic Neue', cursive;
 }
 
 .links_on_top_nav a {
@@ -52,7 +48,7 @@
     color: #8a8a8a;
     text-align: center;
     font-size: 25px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .center_intro {
@@ -100,14 +96,14 @@
     text-align: right;
     margin-right: 100px;
     color:white;
-    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-family: 'Comic Neue', cursive;
     margin-top: 10px;
 }
 
 .university_text {
     color:white;
     font-size: 20px;
-    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-family: 'Comic Neue', cursive;
     margin-right: 50px;
     margin-top: 50px;
 }
@@ -124,7 +120,6 @@
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-	
 	position: relative;
 }
 
@@ -174,14 +169,14 @@
 .contact_head {
     color: white;
     font-size: 30px;
-    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-family: 'Comic Neue', cursive;
 }
 
 .contact_description {
     color: white;
     font-size: 30px;
     text-align: center;
-    font-family:"Comic Sans MS", cursive, sans-serif; 
+    font-family: 'Comic Neue', cursive; 
 }
 
 ul {
