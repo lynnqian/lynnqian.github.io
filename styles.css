@@ -9,8 +9,8 @@
 }
 */
 .navbar-brand {
-    color: #8a8a8a !important;
-    font-family: 'Comic Neue', cursive;
+    color: #707070 !important;
+    font-family: 'Times New Roman', Times, serif;
 }  
 
 .links_on_top_nav {
@@ -18,11 +18,11 @@
     transition: border-bottom 0.5s;
     font-size: 1.1em;
     text-transform: uppercase;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .links_on_top_nav a {
-    color: #8a8a8a;
+    color: #707070;
     text-decoration: none;
     transition: color 0.5s;
 }
@@ -45,7 +45,7 @@
 
 /* Introduction */
 .intro {
-    color: #8a8a8a;
+    color: #707070;
     text-align: center;
     font-size: 25px;
     font-family: 'Ubuntu', sans-serif;
@@ -54,7 +54,7 @@
 .center_intro {
     width: 500px;
     height: 370px;
-    background: rgba(247, 247, 247, 0.2);
+    background: rgba(247, 247, 247, 0.7);
     padding: 40px;
     color: white;
     text-align: center;
@@ -69,7 +69,7 @@
 
 /* Home section background */
 #home_section {
-    background: url(images/Background1.jpg) no-repeat center center fixed;
+    background: url(images/cat.jpg) no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
     min-height: 700px;
