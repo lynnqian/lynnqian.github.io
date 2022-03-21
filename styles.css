@@ -5,7 +5,7 @@
 .navbar-brand {
     color: grey !important;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }  
 
 .navbar-nav > li{
@@ -19,7 +19,7 @@
     transition: border-bottom 0.5s;
     font-size: 1.1em;
     text-transform: uppercase;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .links_on_top_nav a {
@@ -68,7 +68,7 @@
 
 /* Home section background */
 #home_section {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.507), rgba(38, 87, 192, 0.884)),
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.582), rgba(38, 87, 192, 0.884)),
     url(images/sea_photo.png) no-repeat center center fixed;
     /* background-color:white; */
     background-size: cover;
