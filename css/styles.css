@@ -28,10 +28,7 @@
     transition: color 0.5s;
 }
 
-@keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
+
 
 .links_on_top_nav a:hover {
     color: black;
@@ -64,14 +61,19 @@
     margin: auto;
     max-width: 100%;
     max-height: 100%;
-    animation: fadeIn 3s;
     font-family: 'Times New Roman', Times, serif;
+    
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
 }
 
 /* Home section background */
 #home_section {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.582), rgba(38, 87, 192, 0.884)),
-    url(images/sea_photo.png) no-repeat center center fixed;
+    url(../images/sea_photo.png) no-repeat center center fixed;
     /* background-color:white; */
     background-size: cover;
     background-attachment: fixed;
@@ -203,4 +205,30 @@ ul {
 .social_media_link {
     text-align: center;
     word-spacing: 15px;
+}
+
+/* animation for fradeIn */
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }

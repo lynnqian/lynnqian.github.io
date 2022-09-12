@@ -1,0 +1,9 @@
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "JSC370 Homework"
+  left:
+    - text: "report for HW5 (with visualizations)"
+      href: awards.html
+    - text: "conclusion page"
+      href: conclusion.html
