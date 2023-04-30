@@ -11,7 +11,7 @@
 .navbar-nav > li{
     padding-left:35px;
     padding-right:35px;
-  }
+}
   
 
 .links_on_top_nav {
@@ -64,16 +64,16 @@
     font-family: 'Times New Roman', Times, serif;
     
     animation: fadeIn 3s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
 }
 
 /* Home section background */
 #home_section {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.582), rgba(38, 87, 192, 0.884)),
-    url(../images/sea_photo.png) no-repeat center center fixed;
+    url(../images/beach1.JPG) no-repeat center center fixed;
     /* background-color:white; */
     background-size: cover;
     background-attachment: fixed;
@@ -115,6 +115,7 @@
 
 /* particles and achievements section */
 #particles-js {
+    background-color: bisque;
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -135,7 +136,7 @@
     background-position: center;
     width: 75%;
 	margin: 0;
-	top: 50%;
+	top: 40%;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }  
