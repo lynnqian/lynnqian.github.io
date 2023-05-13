@@ -156,6 +156,25 @@
     font-size: 20px;
 }
 
+.fa-linkedin {
+    color:rgb(23, 171, 229);
+}
+
+.fa-github {
+    color:black;
+}
+
+.fa-facebook {
+    color:rgb(67, 111, 242);
+}
+
+.fa-instagram {
+    color:palevioletred;
+}
+
+.fab:hover {
+    color: lightslategrey;
+}
 /* .modal-header {
     background-color: darkblue;
     color: white;
