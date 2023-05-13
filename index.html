@@ -19,69 +19,140 @@
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Ubuntu&display=swap" rel="stylesheet">
 <body>
     <div id="home_section">
-        <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: rgba(230, 230, 230, 0.255);">
+        <nav class="navbar navbar-expand-sm navbar-light" style="background-color: rgba(230, 230, 230, 0.255);">         
             <div class="container">
                 <a class="navbar-brand" class="animated bounce">YUFAN QIAN</a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
+                       
+                    <!-- Modal for educations-->
+                    <div class="modal fade" id="educationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Educations</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <h5>University of Toronto</h5>
+                                <h6>2019 September – 2024 May</h6><br>
+                                Computer Science Specialist and Data Science Specialist<br><br>
+                                Research assistant for Professor Peter Marbach on the project “Network Protocols for the Internet of Things”.<br><br>
+                                Named Dean’s List Scholar in the Faculty of Art and Science for first-year, second-year and third-year.<br><br>
+                                CGPA: 3.85.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal for experiences-->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Work Experience</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <h5>Intel – Software Engineering Intern</h5> 
+                                <h6>2022 June – 2023 May</h6>
+                                <ul>
+                                    <li>PSG (Programmable Solution Group) – design silicon for FPGAs and other Programmable acceleration
+                                    chips, as well as software needed to enable their functionalities.</li>
+                                    <li>Design Methodology and Automation Team – create flows and tools to automate the FPGA design
+                                    workflow.</li>
+                                    <li>Learning and performing code optimization, using different data models, and improving debugging skills.</li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal for skills-->
+                    <div class="modal fade" id="skillModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Skills</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <h5>Technical Skills</h5>
+                                Proficient in Python, Java, Swift, C, SQL.<br>
+                                Proficient in AWS and is an AWS Certified Developer (associate).<br>
+                                Capable of C++, R, JavaScript, HTML, CSS.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal for contact info-->
+                    <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Contact Info</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <h5>Contact me:</h5>
+                                <ul>
+                                    <li>Phone number: 416-930-4910</li>
+                                    <li>Email address: lynnqian2001@yahoo.com</li>   
+                                </ul>
+                                <a href="https://www.facebook.com/lynnqianyufan"><i class="fab fa-facebook fa-2x" style="color:rgb(67, 111, 242)"></i></a>
+                                <a>&nbsp;</a>
+                                <a href="https://www.instagram.com/lynnn_qian/?hl=en"><i class="fab fa-instagram fa-2x" style="color:palevioletred"></i></a>     
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item links_on_top_nav">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" data-toggle="modal" data-target="#educationModal">Educations</a>
                         </li>
                         <li class="nav-item links_on_top_nav">
-                            <a class="nav-link" href="#body_section">Experiences</a>
+                            <a class="nav-link" data-toggle="modal" data-target="#exampleModal">Work Experiences</a>
                         </li>
                         <li class="nav-item links_on_top_nav">
-                            <a class="nav-link" href="html/awards.html">Skills</a>
+                            <a class="nav-link" data-toggle="modal" data-target="#skillModal">Skills</a>
                         </li>
                         <li class="nav-item links_on_top_nav">
-                            <a class="nav-link" href="#contact_info">Contact Info</a>
+                            <a class="nav-link" data-toggle="modal" data-target="#infoModal">Contact Info</a>
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div>  
         </nav>
         <div class="center_intro">
             <p class="name">Yufan Qian</p>
             <p class="intro-describtion"> University of Toronto<br>
             Computer Science and Data Science<br>
-            Third Year</p>
+            Fourth Year</p>  
         </div>
-    </div>
-    <div id="body_section" class="media">
-        <div class="university_intro">
-            <br>
-            <img class="img_UT my-3 mx-5" src="images/imageUT1.JPG" alt="Picture of the univerity">
-            
-            <h1 class="university_head">Skills and Experiences</h1>
-            <div class="university_text media-body text-justify mx-5">
-                <ul>
-                    <li>Proficient in Python, Java, Swift, C.
-                        Proficient in AWS and is an AWS Certified Developer (associate).
-                        Capable of R, JavaScript, HTML, CSS.</li><br>
-                    <li>Research assistant for Professor Peter Marbach on the project “Network Protocols for the Internet of Things”.</li><br>
-                    <li>Software engineering intern at Intel.</li><br>
-                    <li>CGPA 3.85. Named Dean’s List Scholar in the Faculty of Art and Science for both first-year and second-year.</li><br>
-                    <li>Try the game I developed in first-year: <a href="https://lynnqian.github.io/trap-the-kitten/" style="color:blanchedalmond;">trap-the-kitten</a></li><br>
-                </ul>
-            </div>
-            <br>
-        </div>
-    </div>
-    <div id="contact_info">
-        <br>
-        <div class="contact_head">&nbsp;&nbsp;Contact me:</div>
-        <div class="contact_description">
-            <p>4169304910<br>
-                lynnqian2001@gmail.com</p>
-        </div>
-        <ul class="social_media_link">
-            <li><a href="https://www.facebook.com/lynnqianyufan/"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/lynnnn_qian/?hl=en"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://twitter.com/Lynn_Qian_yufan"><i class="fab fa-twitter"></i></a></li>
-        </ul>
     </div>
 </body>
 </html>
